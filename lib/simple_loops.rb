@@ -25,6 +25,7 @@ def return_string_array(array)
     new_str=array[count].to_s
     new_arr+=new_str
     count+=1
+    new_str=""
   end
   new_arr
 end
