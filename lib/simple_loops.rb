@@ -22,10 +22,8 @@ def return_string_array(array)
   new_arr=[]
   count=0
   while count<array.length do
-    new_str=array[count].to_s
-    new_arr+=new_str
+    new_arr.push(array[count].to_s)
     count+=1
-    new_str=""
   end
   new_arr
 end
