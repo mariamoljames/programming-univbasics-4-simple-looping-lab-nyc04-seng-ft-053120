@@ -24,4 +24,5 @@ def return_string_array(array)
   while count<array.length do
     new_arr+=array[count].to_s
   end
+  new_arr
 end
