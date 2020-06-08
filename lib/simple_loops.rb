@@ -18,5 +18,10 @@ def output_array(array)
   end
 end
 
-def return_string_array
+def return_string_array(array)
+  new_arr=[]
+  count=0
+  while count<array.length do
+    new_arr+=array[count].to_s
+  end
 end
